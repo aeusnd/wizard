@@ -1,0 +1,104 @@
+/*
+ * Globals
+ */
+
+body {
+	color: #FFFFFF;
+    min-height: auto;
+
+	}
+	
+	.navbar-default {
+    background-color: #740001;
+    border-color: hsla(0,0%,0%,0.75);
+}
+
+/* Fluid Bgs */
+.panel1 {
+	background-image:url('../imgs/bg-hogwarts-image.png'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0; 
+  left: 0; 
+  
+   /* Preserve aspet ratio */
+  min-height: 100vh;
+  
+}
+  
+	/* Panel 1 */
+	
+	.harrypotter {
+  width: 50%;
+  height: auto;
+  background: url(../imgs/Harrypotter-logo.svg);
+  
+}
+	
+	.harrypotter-subtitle {
+  width: 50%;
+  height: auto;
+  background: url(../imgs/sub-title-logo.svg);
+  
+}
+	
+ .main-title {
+	 text-align: left; 
+	 }
+	 
+	  .sub-title {
+	 text-align: left; 
+	 }
+	 
+	 .headline {
+	 text-align: left; 
+	 }
+	 
+	 .sub-headline {
+	 text-align: left; 
+	 }
+ 
+.panel2 {
+	background-color:rgba(0,0,0,1.00); 
+}
+
+.panel3 {
+	background-color:rgba(0,0,0,1.00); 
+}
+
+
+.colorless {
+	background-color: transparent;
+	
+}
+@media (max-width: 480px) {
+	.harrypotter {
+  width: 100%;
+  height: auto;
+  background: url(../imgs/Harrypotter-logo.svg);
+  
+}
+	
+	.harrypotter-subtitle {
+  width: 100%;
+  height: auto;
+  background: url(../imgs/sub-title-logo.svg);
+  
+}
+}
+@media (min-width: 768px) {
+	
+}
+
+
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+
+}
+
+@media (min-width: 992px) {
+ 
+}
